@@ -1,6 +1,6 @@
 {
   "name": "nv14-click-track",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Click Track for Nodevember 2014 Demos #1 and #2",
   "main": "index.js",
   "scripts": {
