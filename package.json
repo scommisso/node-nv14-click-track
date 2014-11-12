@@ -1,0 +1,39 @@
+{
+  "name": "nv14-click-track",
+  "version": "0.0.1",
+  "description": "Click Track for Nodevember 2014 Demos #1 and #2",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scommisso/node-nv14-click-track.git"
+  },
+  "keywords": [
+    "nodevember",
+    "link",
+    "dedupe",
+    "tests",
+    "coverage"
+  ],
+  "author": "Stephen Commisso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scommisso/node-nv14-click-track/issues"
+  },
+  "homepage": "https://github.com/scommisso/node-nv14-click-track",
+  "devDependencies": {
+    "chai": "~1.9.2",
+    "istanbul": "~0.3.2",
+    "jshint": "~2.5.6",
+    "mocha": "~2.0.1",
+    "mocha-istanbul": "~0.2.0",
+    "proxyquire": "~1.0.1",
+    "sinon": "~1.11.1",
+    "sinon-chai": "~2.5.0"
+  },
+  "scripts": {
+    "pretest": "node node_modules/jshint/bin/jshint ./lib/. ./test/.",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  }
+}
